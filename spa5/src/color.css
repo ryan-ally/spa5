@@ -1,0 +1,241 @@
+    body {
+        color: rgba(15, 14, 13, 0.616);
+        background-color: rgba(7, 6, 6, 0.685);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        height: 100%;
+        width: 100%;
+        border-style: active;
+    }
+    
+    a:link {
+        background-color: rgba(49, 49, 51, 0);
+        color: rgba(49, 49, 51, 0.856);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        height: 100%;
+        -webkit-border-radius: 15px;
+    }
+    
+    a:visited {
+        color: rgb(3, 151, 151);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        background-color: #060b0f33;
+    }
+    
+    a:hover {
+        color: rgba(3, 10, 10, 0.26);
+        background-color: #0a0303a8;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        height: 100%;
+    }
+    
+    a:active {
+        color: rgb(117, 4, 4);
+        background-color: rgba(222, 224, 224, 0.555);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+    
+    header {
+        color: teal;
+        background-color: rgba(102, 102, 119, 0.068);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        width: 100%;
+    }
+    
+    header nav {
+        color: rgba(20, 20, 18, 0.123);
+        background-color: black;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+    
+    article {
+        color: #223;
+        background-color: #667;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        width: 75%;
+    }
+    
+    header nav ul {
+        border-color: rgba(153, 153, 170, 0.219);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+    
+    header nav a:link,
+    header nav a:visited {
+        color: #eff;
+        background-color: transparent;
+        border-color: #99a;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+    
+    header nav a:hover {
+        color: rgba(235, 109, 5, 0.671);
+        background-color: rgba(14, 13, 13, 0.226);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+    
+    header nav a:active {
+        color: #667;
+        background-color: white;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+    
+    article img {
+        color: #ba9;
+        background-color: #dcb;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+    
+    #imagegallery {
+        background-color: transparent;
+    }
+    
+    header nav li {
+        display: inline;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+    
+    header nav {
+        background-repeat: repeat-x;
+        background-position: bottom left;
+        border-width: .1em;
+        border-style: solid;
+        border-bottom-width: 0;
+        border-top-width: 0;
+        padding-left: 5%;
+        padding-right: 5%;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        background-color: rgb(117, 4, 4);
+    }
+    
+    header nav ul {
+        background-color: rgba(38, 0, 128, 0.555);
+        width: 100%;
+        overflow: hidden;
+        border-left-width: .1em;
+        border-left-style: solid;
+        border-right-style: solid;
+        border-right-width: .1em;
+        padding-left: .5%;
+        padding-right: .1%;
+        border-top: 2px dotted rgba(38, 0, 128, 0.555);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        background-color: rgb(117, 4, 4);
+    }
+    
+    header nav li {
+        display: inline;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        background-color: rgb(117, 4, 4);
+    }
+    
+    header nav li a {
+        display: block;
+        float: left;
+        padding: 1em 1em 1em;
+        line-height: 1.8em;
+        align-content: center;
+        justify-content: center;
+        border-top: 3px dotted rgb(31, 17, 56);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+    
+    hr {
+        height: 100%;
+        width: 100%;
+        border: 3px dotted rgba(3, 129, 151, 0.664);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+    
+    h1 {
+        opacity: 90%;
+        background-color: rgb(117, 4, 4);
+        color: rgb(4, 189, 189);
+        border: 5px ridge rgb(13, 20, 20);
+        padding: 30px 30px 20px 20px;
+        align-items: center;
+        text-align: center;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        width: 80%;
+    }
+    
+    h3 {
+        border: 5px ridge rgba(3, 12, 14, 0.966);
+        opacity: 100%;
+        background-color: rgb(117, 4, 4);
+        color: rgb(18, 211, 236);
+        padding: 5px 5px 5px 5px;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+    
+    h2 {
+        border: 5px ridge rgba(9, 201, 226, 0.863);
+        opacity: 70%;
+        font-weight: bold;
+        color: rgba(6, 234, 250, 0.932);
+        width: 80px;
+        height: 60px;
+        padding: 5px 5px 5px 5px;
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        justify-content: space-between;
+        background-color: rgb(117, 4, 4);
+    }
+    
+    p {
+        border: 5px ridge rgb(5, 11, 12);
+        color: rgba(6, 234, 250, 0.932);
+        border-radius: 15px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+        opacity: 70%;
+        background-color: rgb(5, 8, 14);
+        width: 78%;
+        background-color: rgb(117, 4, 4);
+    }
+    
+    li {
+        color: black;
+        opacity: 90%;
+    }
